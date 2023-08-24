@@ -1,66 +1,74 @@
-h1 {
-    color: rgb(26, 73, 44);
-    text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-h2 {
-    text-align: center;
-}
+
 body {
-    /* background-color: rgb(139, 142, 143); */
-    background-image: linear-gradient(#9e9e9e, #747474);
-    min-height: 100vh;
-  
-
-  }
-
-  p {
-    text-align: center;
-  }
-
-
-  /* li {
-    border:  4px solid orange;
-  }
-
-  h1 {
-    border: 4px solid blue;
-  } */
-
- .item1 {
-  color: yellow;
-  font-family: Arial, Helvetica, sans-serif;
- }
-
- .item2 {
-  color: rgb(0, 174, 255);
-  font-family: 'Times New Roman', Times, serif;
- }
-
- .item3 {
-  color: rgb(255, 30, 0);
-  font-family: w;
- }
-
- div.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  /* text-decoration: none; */
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(164, 165, 132);
 }
 
-.button:hover {background-color: #3e8e41}
+h1, h2, h3, p {
+  text-align: center;
+  max-width: 600px;
+}
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+div.boxwrapper {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  min-height: 100vh; */
+  /* justify-content: center; 
+  flex-wrap: wrap;
+  min-height: 100vh; */
+  align-items: center;
+
+}
+
+main {
+
+}
+
+.box {
+
+  height: 100px;
+  min-width: 30vw;
+  margin: 20px;
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  
+  
+}
+
+div.box p {
+
+}
+
+.box1 {
+  background-color: rgb(202, 196, 196);
+}
+
+.box2 {
+  background-color: rgb(152, 152, 155); 
+}
+
+.box3 {
+  background-color: rgb(120, 121, 120);
+}
+
+.box4 {
+  background-color: rgb(83, 83, 82);
+}
+
+.box5 {
+  background-color: rgb(48, 48, 48);
 }
